@@ -1,4 +1,4 @@
-﻿ackage com.formapp.rag_service;
+package com.formapp.rag_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
