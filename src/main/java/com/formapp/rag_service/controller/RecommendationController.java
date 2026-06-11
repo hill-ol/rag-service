@@ -1,4 +1,4 @@
-package com.formapp.rag_service.controller;
+﻿ackage com.formapp.rag_service.controller;
 
 import com.formapp.rag_service.model.Recommendation;
 import com.formapp.rag_service.model.UserContext;
@@ -17,7 +17,7 @@ public class RecommendationController {
     this.recommendationService = recommendationService;
   }
 
-  // Main endpoint — receives UserContext JSON, returns Recommendation JSON
+  // Main endpoint â€” receives UserContext JSON, returns Recommendation JSON
   @PostMapping("/recommend")
   public ResponseEntity<Recommendation> recommend(
       @RequestBody UserContext context
@@ -26,7 +26,7 @@ public class RecommendationController {
     return ResponseEntity.ok(recommendation);
   }
 
-  // Health check — lets us verify the service is running
+  // Health check â€” lets us verify the service is running
   @GetMapping("/health")
   public ResponseEntity<String> health() {
     return ResponseEntity.ok("FORM RAG Service is running");

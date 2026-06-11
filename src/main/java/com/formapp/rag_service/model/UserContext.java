@@ -1,4 +1,4 @@
-package com.formapp.rag_service.model;
+﻿ackage com.formapp.rag_service.model;
 
 import java.util.List;
 

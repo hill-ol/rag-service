@@ -1,4 +1,4 @@
-package com.formapp.rag_service.service;
+﻿ackage com.formapp.rag_service.service;
 
 import com.formapp.rag_service.model.*;
 import com.formapp.rag_service.repository.KnowledgeRepository;
@@ -28,7 +28,7 @@ public class RecommendationService {
   }
 
   public Recommendation recommend(UserContext ctx) {
-    // Step 1: Run decision engine — pure logic
+    // Step 1: Run decision engine â€” pure logic
     DecisionOutput decision = decisionEngine.compute(ctx);
 
     // Step 2: Retrieve relevant research using keyword search

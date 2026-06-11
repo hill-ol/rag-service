@@ -1,4 +1,4 @@
-package com.formapp.rag_service.repository;
+﻿ackage com.formapp.rag_service.repository;
 
 import com.formapp.rag_service.model.KnowledgeEntry;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -27,7 +27,7 @@ public class KnowledgeRepository {
     return new ArrayList<>();
   }
 
-  // Active method for now — keyword-based search
+  // Active method for now â€” keyword-based search
   public List<KnowledgeEntry> findByKeywords(String query, int limit) {
     if (query == null || query.isBlank()) return new ArrayList<>();
 
