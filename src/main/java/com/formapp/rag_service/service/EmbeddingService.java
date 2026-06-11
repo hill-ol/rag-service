@@ -1,4 +1,4 @@
-﻿ackage com.formapp.rag_service.service;
+package com.formapp.rag_service.service;
 
 import org.springframework.stereotype.Service;
 

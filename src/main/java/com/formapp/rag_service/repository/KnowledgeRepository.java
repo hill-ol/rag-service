@@ -1,4 +1,4 @@
-﻿ackage com.formapp.rag_service.repository;
+package com.formapp.rag_service.repository;
 
 import com.formapp.rag_service.model.KnowledgeEntry;
 import org.springframework.jdbc.core.JdbcTemplate;

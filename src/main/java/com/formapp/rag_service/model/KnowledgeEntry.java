@@ -1,4 +1,4 @@
-﻿ackage com.formapp.rag_service.model;
+package com.formapp.rag_service.model;
 
 public class KnowledgeEntry {
   private String id;

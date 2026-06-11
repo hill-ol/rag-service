@@ -1,4 +1,4 @@
-﻿ackage com.formapp.rag_service.controller;
+package com.formapp.rag_service.controller;
 
 import com.formapp.rag_service.model.Recommendation;
 import com.formapp.rag_service.model.UserContext;
